@@ -84,7 +84,7 @@ main += `<br><i class="nes-bulbasaur"></i> <i class="nes-charmander"></i> <i cla
 
 
     download("links.html", main);
-    window.location.href = '/index.html'             
+    window.location.href = '/ZoomLinkUI'             
     
 
 
