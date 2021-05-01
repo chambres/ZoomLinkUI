@@ -75,7 +75,7 @@ function pushhistory(){ const state = { 'page_id': 1, 'user_id': 5 }; const titl
 <div class="nes-container is-dark with-title"> <p class="title">Choose your Adventure</p> <p>Another day, another Zoom</p>`
 
     for (var i = 0; i < al.length; i++) {
-        main += `<button type="button" class="nes-btn is-primary"onclick="pushhistory();copyToClipboard('${al[i][1]}');window.location.replace('${al[i][0]}')">${al[i][2]}</button>\n`;
+        main += `<button type="button" class="nes-btn is-primary"onclick="pushhistory();copyToClipboard('${al[i][1]}');window.location.replace('${al[i][0]}')">${al[i][2]}</button>\n<br>`;
     }
 
 
@@ -84,7 +84,7 @@ main += `<br><i class="nes-bulbasaur"></i> <i class="nes-charmander"></i> <i cla
 
 
     download("links.html", main);
-    window.location.href = '/ZoomLinkUI'             
+    window.location.href = '/ZoomLinkUI';             
     
 
 
